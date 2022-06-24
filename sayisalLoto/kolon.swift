@@ -8,16 +8,17 @@
 import Foundation
 class kolon{
     var sayilar: [Int] = []
-    
+    var numbers = [String]()
     func asText()-> String{
         var r = ""
         
         for sayi in sayilar{
-            r += "\(sayi),"
+            r += "\(sayi)       "
         }
         
         return r
         
-        
+       
+
     }
 }
